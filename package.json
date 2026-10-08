@@ -1,0 +1,16 @@
+{
+  "name": "patchpool",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.17.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "check:foundation": "node scripts/check-foundation.mjs",
+    "build": "pnpm check:foundation",
+    "lint": "pnpm check:foundation",
+    "typecheck": "pnpm check:foundation",
+    "test": "pnpm check:foundation"
+  }
+}

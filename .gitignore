@@ -1,0 +1,27 @@
+# Dependencies and build output
+node_modules/
+.pnpm-store/
+dist/
+build/
+.next/
+coverage/
+out/
+cache/
+artifacts/
+contracts/lib/
+contracts/broadcast/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Local data and editor/OS files
+postgres-data/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
